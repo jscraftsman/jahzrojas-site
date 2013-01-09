@@ -1,0 +1,79 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {	background-image:url(../img/maingbg.png);	}
+
+#landingpage-content{
+	width: 547px;
+	height: 212px;
+	margin: 0 auto;
+}
+
+#avatar{
+	background-image: url(../img/jahz-avatar.png);
+	width: 213px;
+	height: 212px;
+	float: left;
+}
+
+#info{
+	float: right;
+}
+
+#info #title{
+	width: 334px;
+	height: 94px;
+	background-image: url(../img/title.png);
+}
+
+#info .separator{
+	width: 334px;
+	height: 2px;
+	background-image: url(../img/separator.png);
+}
+
+#info #email{
+	font: 15px Century Gothic, Sans-Serif;
+	color: #838181;
+	text-align: center;
+}
+
+#info #buttons{
+	padding: 0.5em 0;
+}
+
+
+#info .home-temp{
+	width: 270px;
+	margin: 0 auto;
+}
+
+#info #buttons .sn-icon{
+	padding: 0;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+}
+
+#info #buttons #fb{				background-image: url(../img/icons/fb.png);	}
+#info #buttons #fb:hover{		background-image: url(../img/icons/fb_active.png);	}
+#info #buttons #twitter{			background-image: url(../img/icons/twitter.png);	}
+#info #buttons #twitter:hover{	background-image: url(../img/icons/twitter_active.png);	}
+#info #buttons #in{				background-image: url(../img/icons/in.png);	}
+#info #buttons #in:hover{		background-image: url(../img/icons/in_active.png);	}
+#info #buttons #skype{				background-image: url(../img/icons/skype.png);	}
+#info #buttons #skype:hover{		background-image: url(../img/icons/skype_active.png);	}
+
+#info #buttons #enter-site{
+	display: inline-block;
+	width: 127px;
+	height: 41px;
+	margin-bottom: 11px;
+	background-image: url(../img/icons/enter.png);
+}
+
+#info #buttons #enter-site:hover{
+	background-image: url(../img/icons/enter_active.png);
+}
