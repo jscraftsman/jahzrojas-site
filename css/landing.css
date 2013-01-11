@@ -3,10 +3,10 @@
     margin:0;
 }
 
-body {	background-image:url(../img/maingbg.png);	}
+body {	background-image:url(../img/landingbg.png);	}
 
 #landingpage-content{
-	width: 547px;
+	width: 550px;
 	height: 212px;
 	margin: 0 auto;
 }
@@ -32,6 +32,7 @@ body {	background-image:url(../img/maingbg.png);	}
 	width: 334px;
 	height: 2px;
 	background-image: url(../img/separator.png);
+	margin: 0 auto;
 }
 
 #info #email{

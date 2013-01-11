@@ -3,37 +3,50 @@
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <title>Jahz Rojas | Social Media Design Guru</title>
-        <link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/home.css" type="text/css" media="all" />
         <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
         <script type="text/javascript">
+			
+			function checkVisit(){
+				var visitor = getCookie("visitor");
+				if (visitor == null && visitor == undefined){
+					if(window.name == "" || window.name == undefined){
+						window.location.href="/welcome";
+					}else{
+						setCookie("visitor", window.name, 1);
+					}
+				}
+			}
+			
+			checkVisit();
+			
             $(document).ready(function(){
-				$("#landingpage-content").css("margin-top", ( ($(window).innerHeight()/2) - ( $("#landingpage-content").height()/2 ) ) );
 				
-				$("div.clickable").click( function(e) { 
-					window.location = $(this).attr("url"); 
-					e.preventDefault(); 
-				})
             });
         </script>
     </head>
     <body>
         <div class="wrapper">
-			<div id="landingpage-content">
-				<div id="avatar"></div>
-				<div id="info">
-						<div id="title"></div>
-						<div class="separator"></div>
-						<div id="buttons">
-							<div id="fb" class="sn-icon clickable" url="https://www.facebook.com/jahz.rojas"></div>
-							<div id="twitter" class="sn-icon clickable" url="https://twitter.com/imjahz"></div>
-							<div id="in" class="sn-icon clickable" url="http://ph.linkedin.com/in/imjahz"></div>
-							
-							<div id="enter-site" class="clickable" url="home"></div>
-						</div>
-						<div class="separator"></div>
-						<p id="email">contact@jahzrojas.com</p>
-				</div>
+			<div id="header">
+				<ul>
+					<li><a href="#" class="header-link" id="service">SERVICES</a></li>
+					<li><a href="#" class="header-link" id="folio">FOLIO</a></li>
+					<li><a href="/"><img src="img/logo.png" id="logo" /></a></li>
+					<li><a href="#" class="header-link" id="blog">BLOG</a></li>
+					<li><a href="#" class="header-link" id="contact">CONTACT</a></li>
+				</ul>
 			</div>
+			<div id="content">
+				<div id="home-body"></div>
+				<div class="separator-1"></div>
+				<div>
+					<p id="quote"> "If you can’t excel with talent, triumph with effort."</p>
+					<p id="author">-Dave Weinbaum</p>
+				</div>
+				<div class="separator-1"></div>
+			</div>
+			
         </div>
     </body>
 </html>

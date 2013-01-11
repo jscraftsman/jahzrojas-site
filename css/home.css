@@ -1,0 +1,60 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {	background-image: url(../img/homebg.png);	}
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+#content {	width: 100%;	}
+#header {	width: 100%;	}
+#header #logo{	width: 180px; height: 180px; vertical-align: middle;	}
+#header ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#header ul li{	float:left;	}
+#header ul li a.header-link{
+	display: block;
+	float: left;
+	height: 18px;
+	background-image: url(../img/headerlinks.png);
+	text-indent: -9999px;
+	margin: 81px 50px;
+}
+#header ul li a#service{		width: 112px;	background-position: 0 0;	}
+#header ul li a#service:hover{	background-position: 0 -18px;	}
+#header ul li a#folio{			width: 72px;	background-position: -120px 0;	}
+#header ul li a#folio:hover{	background-position: -120px -18px;	}
+#header ul li a#blog{			width: 70px;	background-position: -199px 0;	}
+#header ul li a#blog:hover{	background-position: -199px -18px;	}
+#header ul li a#contact{		width: 120px;	background-position: -279px 0;	}
+#header ul li a#contact:hover{	background-position: -279px -18px;	}
+
+#content #home-body{
+	width: 644px;
+	height: 394px;
+	margin: 0 auto;
+	background-image: url(../img/homebody.png);
+}
+#content .separator-1{
+	width: 965px;
+	height: 8px;
+	margin: 0 auto;
+	background-image: url(../img/separator-1.png);
+}
+#content div p#quote{
+	font: 18px Century Gothic, Sans-Serif;
+	color: #62676c;
+	text-align: center;
+}
+
+#content div p#author{
+	font: 18px Monotype Corsiva, Sans-Serif;
+	color: #8c8c8c;
+	text-align: center;
+	text-indent: 30%;
+}
