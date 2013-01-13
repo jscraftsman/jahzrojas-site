@@ -29,7 +29,7 @@
 							<div id="twitter" class="sn-icon clickable" url="https://twitter.com/imjahz"></div>
 							<div id="in" class="sn-icon clickable" url="http://ph.linkedin.com/in/imjahz"></div>
 							
-							<div id="enter-site" class="clickable" url="/jahzrojas/home"></div>
+							<div id="enter-site" class="clickable" url="home"></div>
 						</div>
 						<div class="separator"></div>
 						<p id="email">contact@jahzrojas.com</p>

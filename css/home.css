@@ -98,14 +98,14 @@ body {	background-image: url(../img/homebg.png);	}
 	margin: 0 auto;
 	padding: 72px 22px;
 }
-#content #about-me p{
+#content #about-me .summary1{
 	font: 24px Century Gothic, Sans-Serif;
 	color: #62676c;
 	margin-left: 110px;
 	float: left;
 }
 
-#content #about-me p:nth-child(2){
+#content #about-me p:nth-child(2).summary1{
 	width: 500px;
 	margin: 50px 0 0 130px;
 	text-align: center;
@@ -115,3 +115,68 @@ body {	background-image: url(../img/homebg.png);	}
 #content #about-me img{
 	float: right;
 }
+#about-me #summary-div{
+	clear: both;
+	width: 470px;
+	margin-left: 110px;
+	float: left;
+}
+#about-me .summary2, #site-links p{
+	font: 15px Century Gothic, Sans-Serif;
+	color: #62676c;
+	margin-bottom: 18px;
+	line-height:200%;
+}
+#about-me #download{
+	width: 234px;
+	height: 76px;
+	margin: 30px auto;
+}
+
+#about-me #site-links{
+	width: 310px;
+	float: right;
+}
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+#site-links div{
+	width: 241px;
+	height: 199px;
+}
+#site-links div div{
+	width: 99px;
+	height: 199px;
+	margin: 0 0 10px 10px;
+}
+
+#site-links .sn-icon{
+	background-image: url(../img/social-buttons.png);
+	background-repeat: no-repeat;
+	width: 97px;
+	height: 31px;
+}
+#site-links .sn-icon:hover{
+	-moz-box-shadow: 0 0 10px #777;
+	-webkit-box-shadow: 0 0 10px #777;
+	box-shadow: 0 0 10px #777;
+	background-color: #d3d3d3; 
+}
+
+#site-links  #facebook{	background-position: 0 0;	}
+#site-links  #twitter{	background-position: 0 -42px;	}
+#site-links  #pinterest{	background-position: 0 -84px;	}
+#site-links  #skype{	background-position: 0 -124px;	}
+#site-links  #dribble{	background-position: 0 -167px;	}
+
+#site-links  #linkedin{	background-position: -144px 0;	}
+#site-links  #googleplus{	background-position: -144px -42px;	}
+#site-links  #youtube{	background-position: -144px -84px;	}
+#site-links  #behance{	background-position: -144px -124px;	}
+#site-links  #email{	background-position: -144px -167px;	}
+	
