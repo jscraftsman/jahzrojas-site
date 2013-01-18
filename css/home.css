@@ -180,3 +180,134 @@ body {	background-image: url(../img/homebg.png);	}
 #site-links  #behance{	background-position: -144px -124px;	}
 #site-links  #email{	background-position: -144px -167px;	}
 
+
+#testimonies{
+	clear: both;
+	width: 980px;
+	height: 230px;
+	margin: 1190px auto 30px auto;
+	position: absolute;
+}
+
+#testimonies div{
+	float:left;
+	width: 33.3%;
+	height: 100%;
+}
+
+#testimonies div p{
+	font: 14px Century Gothic, Sans-Serif;
+	color: #4d4d4d;
+	text-align: center;
+	padding: 30px 30px;
+}
+
+#testimonies div p.align-right{
+	margin-top: 30px;
+	padding: 0 30px;
+	position: absolute;
+	bottom: 35px;
+}
+
+#footer{
+	width: 100%;
+	height: auto;
+	/*height: 408px;*/
+	position: absolute;
+	left: 0;
+	padding: 0;
+	margin: 1420px 0;
+	background-image: url(../img/landingbg.png);
+}
+
+#footer #footer-content .box{
+	float:left;
+	width: 33.3%;
+	height: 100%;
+	margin-bottom: 30px;
+}
+
+#footer #footer-content .box p.sub-title{
+	font: 18px Century Gothic, Sans-Serif;
+	color: #e2e2e2;
+	padding-bottom: 20px;
+}
+
+#footer #footer-content{
+	width: 980px;
+	margin: 30px auto;
+}
+
+.separator-3{
+	clear: both;
+	width: 963px;
+	height: 3px;
+	margin: 0 auto;
+	background-image: url(../img/separator-3.png);
+}
+#footer-content #footer-bottom{
+	height: 20px;
+}
+
+#footer-content #footer-bottom div p{
+	margin-top: 10px;
+	font: 14px Century Gothic, Sans-Serif;
+	color: #717374;
+}
+#footer-content #footer-bottom div p a{
+	text-decoration:none;
+	color: #717374;
+}
+#footer-content #footer-bottom div p a:hover{
+	color: #fff;
+}
+
+#footer-content div #transact-options{
+	width: 200px; 
+	height: 115px;
+	margin: 0 auto;
+}
+#footer #buttons{
+	width: 240px;
+	margin: 0 auto;
+}
+
+#footer #buttons .sn-icon{
+	padding: 0;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	margin: 0 5px;
+}
+
+#footer #buttons #fb{				background-image: url(../img/icons/fb.png);	}
+#footer #buttons #fb:hover{		background-image: url(../img/icons/fb_active.png);	}
+#footer #buttons #twitter{			background-image: url(../img/icons/twitter.png);	}
+#footer #buttons #twitter:hover{	background-image: url(../img/icons/twitter_active.png);	}
+#footer #buttons #in{				background-image: url(../img/icons/in.png);	}
+#footer #buttons #in:hover{		background-image: url(../img/icons/in_active.png);	}
+#footer #buttons #skype{				background-image: url(../img/icons/skype.png);	}
+#footer #buttons #skype:hover{		background-image: url(../img/icons/skype_active.png);	}
+
+#footer-content .box p.passage{
+	clear: both;
+	width: 185px;
+	font: 14px Century Gothic, Sans-Serif;
+	color: #a7a7a7;
+	margin: 0 auto;
+}
+#footer-content .box p.from{
+	clear: both;
+	margin: 10px auto;
+	text-align: right;
+	width: 185px;
+	font: 14px Century Gothic, Sans-Serif;
+	color: #a7a7a7;
+}
+
+#footer #qrcode{
+	width: 74px;
+	height: 74px;
+	margin: 20px 74px 5px 0;
+}
